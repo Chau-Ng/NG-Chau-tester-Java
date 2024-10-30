@@ -48,4 +48,4 @@ To run the tests from maven, go to the folder that contains the pom.xml file and
 
 `mvn test`
 
-https://github.com/Chau-Ng/NG-Chau-tester-Java/blob/master/ampoul.JPG
+![ampoule](https://github.com/Chau-Ng/NG-Chau-tester-Java/blob/master/ampoul.JPG "ampoule")
