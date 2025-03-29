@@ -14,7 +14,7 @@ public class FareCalculatorService {
         long inMillis = ticket.getInTime().getTime();
         long outMillis = ticket.getOutTime().getTime();
 
-        //TODO: Some tests are failing here. Need to check if this logic is correct
+        
         double durationInHours = (double) (outMillis - inMillis) / (1000 * 60 * 60);
         
         if(durationInHours < 0.5){
@@ -37,7 +37,8 @@ public class FareCalculatorService {
             ticket.setPrice(ticket.getPrice() * 0.95);
         }
     }
-	 public void calculateFare(Ticket ticket) {
-	        calculateFare(ticket, false);  
+	 public double calculateFare(Ticket ticket) {
+	        calculateFare(ticket, false);
+			return 0;  
 	    }
 }
